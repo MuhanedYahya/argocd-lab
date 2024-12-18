@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: default
   source:
-    repoURL: https://github.com/FrostlineGamesRepos/gitops.git
+    repoURL: https://github.com/MuhanedYahya/argocd-lab.git
     targetRevision: default
     path: manifests/web-color
   syncPolicy:
