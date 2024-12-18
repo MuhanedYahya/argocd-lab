@@ -17,6 +17,8 @@ spec:
       containers:
       - name: web-color
         image: kodekloud/webapp-color:latest # Replace with your image
+        ports:
+        - containerPort: 8080
         env:
         - name: APP_COLOR
           value: "blue"
