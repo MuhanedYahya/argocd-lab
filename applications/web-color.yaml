@@ -10,7 +10,7 @@ spec:
     namespace: default
   source:
     repoURL: https://github.com/MuhanedYahya/argocd-lab.git
-    targetRevision: default
+    targetRevision: main
     path: manifests/web-color
   syncPolicy:
     automated:
